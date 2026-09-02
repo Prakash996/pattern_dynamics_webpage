@@ -1,0 +1,76 @@
+#read_more{
+	color:blue;
+	font-style: italic;
+	font-weight: 500;
+}
+#read_more:hover{
+	color:orangered;
+}
+
+.accordion .ac-item .ac-title {
+    font-size: 20px;
+    
+    -webkit-background-clip: text!important;
+    background: radial-gradient(circle at left top,#4b72ff 9%,#2250fc 55%,#6442ff 91%);
+    color:radial-gradient(circle at left top,#4b72ff 9%,#2250fc 55%,#6442ff 91%);
+}
+
+.what_we_do_img{
+	width: 100%;
+	height: 200px;
+}
+.our_services_img{
+	width: 100%;
+	height: auto;
+	padding-top: 30px;
+	padding-bottom:50px; 
+}
+.text-block {
+  bottom: 20px;
+  right: 20px;
+  background-color: #343a40cf;
+  color: white;
+  padding: 50px
+}
+#thumbnail{
+	height: 300px;
+    width: 100%;
+}
+#product{
+	width: 100%;
+	height: 400px;
+}
+.product{
+
+}
+@media (max-width: 1200px)and(min-width: 991px){
+	#product{
+		height: 450px;
+	}
+}
+
+@media (max-width: 992px)and(min-width: 769px){
+	#product{
+		height: 350px;
+	}
+}
+@media (max-width: 768px)and(min-width: 426px){
+	#product{
+		height: 250px;
+	}
+}
+@media (min-width: 375px)and(max-width: 425px){
+	#product{
+		height: 250px;
+	}
+}
+@media (max-width: 375px){
+	#product{
+		height: 180px;
+	}
+}
+
+.product-bg{
+	background-color:#bfc8e8; 
+	min-height:700px;
+}
